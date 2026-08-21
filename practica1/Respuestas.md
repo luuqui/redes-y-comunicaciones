@@ -187,17 +187,15 @@ El stack de protocolos **TCP/IP** (o arquitectura de Internet) se organiza en cu
 
 El modelo **OSI** (un marco teórico de referencia de 7 capas) y la suite **TCP/IP** (la implementación práctica e histórica de 4/5 capas utilizada en Internet) presentan diferencias y similitudes clave:
 
-|**Criterio**|**Modelo OSI**|**Implementación TCP/IP**|
-|---|---|---|
-|**Enfoque principal**|Modelo **teórico y conceptual** normativo.|Modelo **práctico y funcional** basado en la implementación real de Internet.|
-|**Número de capas**|**7 capas** (Aplicación, Presentación, Sesión, Transporte, Red, Enlace, Física).|**4 o 5 capas** (Aplicación, Transporte, Red/Internet, Enlace/Acceso a Red, Física).|
-|**Capas superiores**|Separa estrictamente la **Aplicación**, **Presentación** (formato/cifrado) y **Sesión** (gestión del diálogo).|Agrupa Presentación y Sesión dentro de la **Capa de Aplicación**.|
-|**Nivel de Red**|Soporta servicios orientados a conexión y no orientados a conexión.|En el nivel de red (IP), solo soporta servicios **no orientados a conexión** (_datagramas_).|
-|**Desarrollo e Historia**|Creado por la ISO de forma académica/teórica antes de probar la implementación de los protocolos.|Surgió del trabajo práctico (DARPA/IETF) donde los protocolos se programaron e implementaron primero.|
+| **Criterio**              | **Modelo OSI**                                                                                                 | **Implementación TCP/IP**                                                                             |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Enfoque principal**     | Modelo **teórico y conceptual** normativo.                                                                     | Modelo **práctico y funcional** basado en la implementación real de Internet.                         |
+| **Número de capas**       | **7 capas** (Aplicación, Presentación, Sesión, Transporte, Red, Enlace, Física).                               | **4 o 5 capas** (Aplicación, Transporte, Red/Internet, Enlace/Acceso a Red, Física).                  |
+| **Capas superiores**      | Separa estrictamente la **Aplicación**, **Presentación** (formato/cifrado) y **Sesión** (gestión del diálogo). | Agrupa Presentación y Sesión dentro de la **Capa de Aplicación**.                                     |
+| **Nivel de Red**          | Soporta servicios orientados a conexión y no orientados a conexión.                                            | En el nivel de red (IP), solo soporta servicios **no orientados a conexión** (_datagramas_).          |
+| **Desarrollo e Historia** | Creado por la ISO de forma académica/teórica antes de probar la implementación de los protocolos.              | Surgió del trabajo práctico (DARPA/IETF) donde los protocolos se programaron e implementaron primero. |
 ### Similitudes Principales
 
 - **Arquitectura en capas:** Ambos modelos dividen el proceso de comunicación en niveles funcionales y aislados.
 - **Mismo propósito central:** Buscan resolver la comunicación entre sistemas finales interconectados mediante protocolos estandarizados.
 - **Capas equivalentes:** Las funciones esenciales de las capas de **Transporte** y **Red** (o Internet) son prácticamente idénticas en la especificación teórica de ambos modelos.
-
-cambio
