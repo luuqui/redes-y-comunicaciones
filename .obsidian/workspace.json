@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "080da01bd9a94c9c",
+        "id": "4a91b724dde6be04",
         "type": "tabs",
         "children": [
           {
-            "id": "daa2182f0c6ab9d9",
+            "id": "889a857c01a1f250",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "practica1/Respuestas.md",
-                "mode": "source",
-                "source": false
+                "file": "práctica1/Practica-1-TER.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Respuestas"
+              "icon": "lucide-file-text",
+              "title": "Practica-1-TER"
             }
           }
         ]
@@ -199,8 +197,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "daa2182f0c6ab9d9",
+  "active": "889a857c01a1f250",
   "lastOpenFiles": [
+    "práctica1/Practica-1-TER.pdf",
+    "práctica1",
+    "ing-software 1",
+    "ing-software",
     "practica1/Práctica 1 - Introducción.pdf",
     "practica1/Respuestas.md"
   ]
